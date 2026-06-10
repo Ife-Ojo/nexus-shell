@@ -1,6 +1,6 @@
 # Nexus Shell
 
-A Unix shell built from scratch in C, implementing core operating system concepts including process management, file descriptors, inter-process communication, and persistent state management.
+A Unix shell built written in C, implementing core operating system concepts including process management, file descriptors, inter-process communication, and persistent state management.
 
 ## Features
 
