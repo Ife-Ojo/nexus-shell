@@ -1,0 +1,39 @@
+NEXUS SHELL - USER GUIDE
+=========================
+
+Nexus is a lightweight Unix shell written in C.
+Built from scratch to demonstrate OS-level systems programming.
+
+BUILT-IN COMMANDS
+-----------------
+cd [dir]       Change directory. No argument goes to home.
+pwd            Print current working directory.
+clear          Clear the terminal screen.
+history        Show command history (persists between sessions).
+exit           Exit the shell.
+
+I/O REDIRECTION
+---------------
+cmd > file     Write output to file (overwrites).
+cmd >> file    Append output to file.
+cmd < file     Read input from file.
+
+PIPES
+-----
+cmd1 | cmd2    Pipe output of cmd1 into input of cmd2.
+
+EXAMPLES
+--------
+ls > files.txt
+cat < files.txt
+ls | grep main
+echo hello >> log.txt
+
+BUILDING
+--------
+make           Compile the shell.
+make clean     Remove compiled binary.
+
+RUNNING
+-------
+./nexus        Start the shell.
